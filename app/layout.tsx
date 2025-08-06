@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "usenom",
-  description: "Project name detection tool, designed to help developers, teams and enterprises quickly check whether a name has been occupied when creating a new project. It supports multiple mainstream development platforms such as npm, git hub, py pi (python), crates.io (rust), etc., ensuring that your project name remains unique in these ecosystems and avoiding naming conflicts.",
+  description:
+    "Do not nom a used name — check if a package name is taken on your favorite registry: npm, crates.io, pypi, github",
 };
 
 export default function RootLayout({
