@@ -36,7 +36,7 @@ export default async function Index({
   return (
     <div className="flex flex-col w-full items-center gap-2">
       <SearchForm q={q} />
-      <div className="space-y-10 ml-2 mr-2">
+      <div className="space-y-10 w-full px-4 max-w-3xl">
         <Npm packages={npmPackages} />
         <Github users={githubUsers} />
         <CratesIo crates={crates} />
