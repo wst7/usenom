@@ -1,0 +1,6 @@
+GET https://pypi.org/pypi/request2/json
+
+
+GET http://10.191.110.20:3000/api/query?name=request2
+
+GET http://10.191.110.20:3000/api/query?name=request2
