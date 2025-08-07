@@ -61,11 +61,14 @@ const fetchPypiPackages = async (name: string) => {
     },
     (error) => {
       if (error.response.status == 404) {
-        return [];
+        return null;
       }
     }
   );
   const res = await request.get(`https://pypi.org/pypi/${name}/json`);
+  if (!res) {
+    return [];
+  }
   return [
     {
       name: res.data.info.name,
