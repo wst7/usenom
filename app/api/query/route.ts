@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { isEqual } from "@/lib/utils";
 import { NpmPackages } from "@/types/type";
 import axios from "axios";
 import { NextResponse } from "next/server";
@@ -11,7 +12,7 @@ const fetchGitHubUsers = async (name: string) => {
     headers: { Accept: "application/vnd.github+json" },
   });
   return res.data.items
-    .filter((item: any) => item.login == username)
+    .filter((item: any) => isEqual(item.login, username))
     .map((item: any) => {
       return {
         username: item.login,

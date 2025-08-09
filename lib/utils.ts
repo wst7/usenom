@@ -11,3 +11,7 @@ export function getApiUrl(path: string) {
   // 确保路径拼接正确
   return new URL(path, baseUrl).toString();
 }
+
+export function isEqual(a: string, b: string) {
+  return a.toLowerCase() === b.toLowerCase();
+}
