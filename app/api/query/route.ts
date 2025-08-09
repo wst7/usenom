@@ -22,11 +22,12 @@ const fetchGitHubUsers = async (name: string) => {
 };
 
 const fetchNpmPackages = async (name: string): Promise<NpmPackages> => {
+  const pkgName = name.toLowerCase()
   const res = await axios.get("https://registry.npmjs.org/-/v1/search", {
-    params: { text: name, size: 2 },
+    params: { text: pkgName, size: 2 },
   });
   return res.data.objects
-    .filter((item: any) => item.package.name == name)
+    .filter((item: any) => item.package.name == pkgName)
     .map((item: any) => ({
       name: item.package.name,
       version: item.package.version,
