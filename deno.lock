@@ -17,8 +17,8 @@
     "npm:eslint-config-next@15.4.5": "15.4.5_eslint@9.32.0_typescript@5.9.2_@typescript-eslint+parser@8.39.0__eslint@9.32.0__typescript@5.9.2_eslint-plugin-import@2.32.0__eslint@9.32.0",
     "npm:eslint@9": "9.32.0",
     "npm:lucide-react@0.536": "0.536.0_react@19.1.0",
-    "npm:next-auth@5.0.0-beta.29": "5.0.0-beta.29_next@15.4.5__react@19.1.0__react-dom@19.1.0___react@19.1.0_react@19.1.0_react-dom@19.1.0__react@19.1.0",
-    "npm:next@^15.4.2-canary.35": "15.4.5_react@19.1.0_react-dom@19.1.0__react@19.1.0",
+    "npm:next-auth@5.0.0-beta.29": "5.0.0-beta.29_next@15.4.2-canary.35__react@19.1.0__react-dom@19.1.0___react@19.1.0_react@19.1.0_react-dom@19.1.0__react@19.1.0",
+    "npm:next@15.4.2-canary.35": "15.4.2-canary.35_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:react-dom@19.1.0": "19.1.0_react@19.1.0",
     "npm:react-icons@^5.5.0": "5.5.0_react@19.1.0",
     "npm:react@19.1.0": "19.1.0",
@@ -389,9 +389,9 @@
       ],
       "tarball": "https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz"
     },
-    "@next/env@15.4.5": {
-      "integrity": "sha512-ruM+q2SCOVCepUiERoxOmZY9ZVoecR3gcXNwCYZRvQQWRjhOiPJGmQ2fAiLR6YKWXcSAh7G79KEFxN3rwhs4LQ==",
-      "tarball": "https://registry.npmmirror.com/@next/env/-/env-15.4.5.tgz"
+    "@next/env@15.4.2-canary.35": {
+      "integrity": "sha512-sUXtCTz1gnE/2/VFvHuwKsfOpHsLdUwfMuAySZFSiTIZmyqr7kedSpx7/MoKJNVg4TQY4ACqqxKP8/MSrvjbMQ==",
+      "tarball": "https://registry.npmmirror.com/@next/env/-/env-15.4.2-canary.35.tgz"
     },
     "@next/eslint-plugin-next@15.4.5": {
       "integrity": "sha512-YhbrlbEt0m4jJnXHMY/cCUDBAWgd5SaTa5mJjzOt82QwflAFfW/h3+COp2TfVSzhmscIZ5sg2WXt3MLziqCSCw==",
@@ -400,11 +400,23 @@
       ],
       "tarball": "https://registry.npmmirror.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.5.tgz"
     },
+    "@next/swc-darwin-arm64@15.4.2-canary.35": {
+      "integrity": "sha512-mQCYXTxr1JHJEOmyMdvq5u5DCcWB+BR3JBXYFA69xyM51lcuP6UAR1SW5hHBzHDyhqNVmMif/zBtUZ0E5AMtDg==",
+      "os": ["darwin"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.2-canary.35.tgz"
+    },
     "@next/swc-darwin-arm64@15.4.5": {
       "integrity": "sha512-84dAN4fkfdC7nX6udDLz9GzQlMUwEMKD7zsseXrl7FTeIItF8vpk1lhLEnsotiiDt+QFu3O1FVWnqwcRD2U3KA==",
       "os": ["darwin"],
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.5.tgz"
+    },
+    "@next/swc-darwin-x64@15.4.2-canary.35": {
+      "integrity": "sha512-XkZz0QzCh3kEmvAEMapwBk7m2+IweOaW3uj4+m0EUCHaYTdCjS0zSLvk7q1xi6PVEzRb898YHL1BmwalpSD9JA==",
+      "os": ["darwin"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.2-canary.35.tgz"
     },
     "@next/swc-darwin-x64@15.4.5": {
       "integrity": "sha512-CL6mfGsKuFSyQjx36p2ftwMNSb8PQog8y0HO/ONLdQqDql7x3aJb/wB+LA651r4we2pp/Ck+qoRVUeZZEvSurA==",
@@ -412,11 +424,23 @@
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.5.tgz"
     },
+    "@next/swc-linux-arm64-gnu@15.4.2-canary.35": {
+      "integrity": "sha512-PJsvjIHsxygdTbx9a7SCo9wuKqypcPfAWpIxxe0SZim+VVktPo5a0hR0ILUP+UPuvQIYvSa+g43/WYw56UqaAA==",
+      "os": ["linux"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.2-canary.35.tgz"
+    },
     "@next/swc-linux-arm64-gnu@15.4.5": {
       "integrity": "sha512-1hTVd9n6jpM/thnDc5kYHD1OjjWYpUJrJxY4DlEacT7L5SEOXIifIdTye6SQNNn8JDZrcN+n8AWOmeJ8u3KlvQ==",
       "os": ["linux"],
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.5.tgz"
+    },
+    "@next/swc-linux-arm64-musl@15.4.2-canary.35": {
+      "integrity": "sha512-jEVINadLGdH61wNgY4JePO4dUncBkw9UMWcBCg//Xk1+/ELSX1se8q7tspDAHptLp1RudUGoPzVhu183jgp0ww==",
+      "os": ["linux"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.2-canary.35.tgz"
     },
     "@next/swc-linux-arm64-musl@15.4.5": {
       "integrity": "sha512-4W+D/nw3RpIwGrqpFi7greZ0hjrCaioGErI7XHgkcTeWdZd146NNu1s4HnaHonLeNTguKnL2Urqvj28UJj6Gqw==",
@@ -424,11 +448,23 @@
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.5.tgz"
     },
+    "@next/swc-linux-x64-gnu@15.4.2-canary.35": {
+      "integrity": "sha512-7oHa+kge/2UXoI2Qg6CKJMOpURXxJ684Brz5UBks75bM1u2NJv7P4rqR0g0UaAalOktJMzogm9kRCiHuwoCvmA==",
+      "os": ["linux"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.2-canary.35.tgz"
+    },
     "@next/swc-linux-x64-gnu@15.4.5": {
       "integrity": "sha512-N6Mgdxe/Cn2K1yMHge6pclffkxzbSGOydXVKYOjYqQXZYjLCfN/CuFkaYDeDHY2VBwSHyM2fUjYBiQCIlxIKDA==",
       "os": ["linux"],
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.5.tgz"
+    },
+    "@next/swc-linux-x64-musl@15.4.2-canary.35": {
+      "integrity": "sha512-RaWGdbcEXS9Weq3kq7052Pxw3TN5+/uLXH9zxZZAXoJhcYychu5rJirid5+yGPGJxpgmtvsHyJu9Z7KY7INsyw==",
+      "os": ["linux"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.2-canary.35.tgz"
     },
     "@next/swc-linux-x64-musl@15.4.5": {
       "integrity": "sha512-YZ3bNDrS8v5KiqgWE0xZQgtXgCTUacgFtnEgI4ccotAASwSvcMPDLua7BWLuTfucoRv6mPidXkITJLd8IdJplQ==",
@@ -436,11 +472,23 @@
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.5.tgz"
     },
+    "@next/swc-win32-arm64-msvc@15.4.2-canary.35": {
+      "integrity": "sha512-WZL9bVp/jTS3MQkOgdI9jhI3MAvf6rUqMENKh9xqmyepmbt1sX6Wgj7EwkIlyO4il+hSHgzQKC9TTUuLv8nRlQ==",
+      "os": ["win32"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.2-canary.35.tgz"
+    },
     "@next/swc-win32-arm64-msvc@15.4.5": {
       "integrity": "sha512-9Wr4t9GkZmMNcTVvSloFtjzbH4vtT4a8+UHqDoVnxA5QyfWe6c5flTH1BIWPGNWSUlofc8dVJAE7j84FQgskvQ==",
       "os": ["win32"],
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.5.tgz"
+    },
+    "@next/swc-win32-x64-msvc@15.4.2-canary.35": {
+      "integrity": "sha512-rAjtZw4VoqAn/qpt80np2CsGKgnhfS/9DIxV4s3doDe1MRZPFwkkeY1MTnZ5Yc4X8RdmgWI96hGOyTyEAkErCQ==",
+      "os": ["win32"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.4.2-canary.35.tgz"
     },
     "@next/swc-win32-x64-msvc@15.4.5": {
       "integrity": "sha512-voWk7XtGvlsP+w8VBz7lqp8Y+dYw/MTI4KeS0gTVtfdhdJ5QwhXLmNrndFOin/MDoCvUaLWMkYKATaCoUkt2/A==",
@@ -1538,9 +1586,9 @@
       "integrity": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
       "tarball": "https://registry.npmmirror.com/callsites/-/callsites-3.1.0.tgz"
     },
-    "caniuse-lite@1.0.30001731": {
-      "integrity": "sha512-lDdp2/wrOmTRWuoB5DpfNkC0rJDU8DqRa6nYL6HK6sytw70QMopt/NIc/9SM7ylItlBWfACXk0tEn37UWM/+mg==",
-      "tarball": "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001731.tgz"
+    "caniuse-lite@1.0.30001734": {
+      "integrity": "sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==",
+      "tarball": "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001734.tgz"
     },
     "chalk@4.1.2": {
       "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
@@ -2834,7 +2882,7 @@
       "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
       "tarball": "https://registry.npmmirror.com/natural-compare/-/natural-compare-1.4.0.tgz"
     },
-    "next-auth@5.0.0-beta.29_next@15.4.5__react@19.1.0__react-dom@19.1.0___react@19.1.0_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
+    "next-auth@5.0.0-beta.29_next@15.4.2-canary.35__react@19.1.0__react-dom@19.1.0___react@19.1.0_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
       "integrity": "sha512-Ukpnuk3NMc/LiOl32njZPySk7pABEzbjhMUFd5/n10I0ZNC7NCuVv8IY2JgbDek2t/PUOifQEoUiOOTLy4os5A==",
       "dependencies": [
         "@auth/core",
@@ -2843,8 +2891,8 @@
       ],
       "tarball": "https://registry.npmmirror.com/next-auth/-/next-auth-5.0.0-beta.29.tgz"
     },
-    "next@15.4.5_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
-      "integrity": "sha512-nJ4v+IO9CPmbmcvsPebIoX3Q+S7f6Fu08/dEWu0Ttfa+wVwQRh9epcmsyCPjmL2b8MxC+CkBR97jgDhUUztI3g==",
+    "next@15.4.2-canary.35_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
+      "integrity": "sha512-HSEb8jSsaa2MZg6J9M7zX07yQz82K8NC70J1aWSZ7Dxh16yjjK5peC+ZPhrs2nRTLm2U7PETPzoFK0Jfbu4FAA==",
       "dependencies": [
         "@next/env",
         "@swc/helpers",
@@ -2855,18 +2903,18 @@
         "styled-jsx"
       ],
       "optionalDependencies": [
-        "@next/swc-darwin-arm64",
-        "@next/swc-darwin-x64",
-        "@next/swc-linux-arm64-gnu",
-        "@next/swc-linux-arm64-musl",
-        "@next/swc-linux-x64-gnu",
-        "@next/swc-linux-x64-musl",
-        "@next/swc-win32-arm64-msvc",
-        "@next/swc-win32-x64-msvc",
+        "@next/swc-darwin-arm64@15.4.2-canary.35",
+        "@next/swc-darwin-x64@15.4.2-canary.35",
+        "@next/swc-linux-arm64-gnu@15.4.2-canary.35",
+        "@next/swc-linux-arm64-musl@15.4.2-canary.35",
+        "@next/swc-linux-x64-gnu@15.4.2-canary.35",
+        "@next/swc-linux-x64-musl@15.4.2-canary.35",
+        "@next/swc-win32-arm64-msvc@15.4.2-canary.35",
+        "@next/swc-win32-x64-msvc@15.4.2-canary.35",
         "sharp"
       ],
       "bin": true,
-      "tarball": "https://registry.npmmirror.com/next/-/next-15.4.5.tgz"
+      "tarball": "https://registry.npmmirror.com/next/-/next-15.4.2-canary.35.tgz"
     },
     "oauth4webapi@3.6.2": {
       "integrity": "sha512-hwWLiyBYuqhVdcIUJMJVKdEvz+DCweOcbSfqDyIv9PuUwrNfqrzfHP2bypZgZdbYOS67QYqnAnvZa2BJwBBrHw==",
@@ -3762,7 +3810,7 @@
         "npm:eslint@9",
         "npm:lucide-react@0.536",
         "npm:next-auth@5.0.0-beta.29",
-        "npm:next@^15.4.2-canary.35",
+        "npm:next@15.4.2-canary.35",
         "npm:react-dom@19.1.0",
         "npm:react-icons@^5.5.0",
         "npm:react@19.1.0",
