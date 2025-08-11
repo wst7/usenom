@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["avatars.githubusercontent.com"],
   },
-  experimental: {
-    nodeMiddleware: true, // Enable Node.js middleware
-  },
 };
 
 export default nextConfig;
