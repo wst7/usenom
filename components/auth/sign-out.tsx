@@ -1,6 +1,6 @@
 
 
-import { signIn, signOut } from "@/auth"
+import { signOut } from "@/auth"
 
 export default function SignIn() {
   return (

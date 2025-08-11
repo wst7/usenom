@@ -23,7 +23,7 @@ export default async function UserAvatar() {
       <DropdownMenu>
         <DropdownMenuTrigger>
           <Avatar>
-            <AvatarImage className="cursor-pointer" src={session.user.image} />
+            {session.user.image && <AvatarImage className="cursor-pointer" src={session.user.image} />}
             <AvatarFallback>{session.user.name}</AvatarFallback>
           </Avatar>
         </DropdownMenuTrigger>
