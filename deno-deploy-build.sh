@@ -8,5 +8,4 @@ pnpm install
 pnpm --filter=@usenom/* build
 
 # 3. 部署逻辑（根据实际需求添加）
-# ...
-cd apps/web
+cp -R apps/web/.next ./
