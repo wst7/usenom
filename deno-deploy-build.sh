@@ -2,10 +2,11 @@
 set -e  # 遇到错误立即退出
 
 # 1. 安装依赖
-# pnpm install
+pnpm install --no-frozen-lockfile
 
 # 2. 构建所有 @usenom 包
 pnpm --filter=@usenom/* build
 
 # 3. 部署逻辑（根据实际需求添加）
+rm -rf .next
 cp -R apps/web/.next ./
