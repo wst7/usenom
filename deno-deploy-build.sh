@@ -2,7 +2,7 @@
 set -e  # 遇到错误立即退出
 
 # 1. 安装依赖
-pnpm install
+# pnpm install
 
 # 2. 构建所有 @usenom 包
 pnpm --filter=@usenom/* build
