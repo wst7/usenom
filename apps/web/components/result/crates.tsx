@@ -1,4 +1,4 @@
-import type { CrateRecord } from "@/types/type";
+import type { CrateRecord } from "@usenom/api";
 import Empty from "../empty";
 import BackLink, { LinkType } from "../back-link";
 import dayjs from "@/lib/dayjs";

@@ -1,4 +1,4 @@
-import type { NpmPackages } from "@/types/type";
+import type { NpmPackages } from "@usenom/api";
 import Empty from "@/components/empty";
 import BackLink, { LinkType } from "../back-link";
 import dayjs from "@/lib/dayjs";

@@ -1,39 +1,31 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@biomejs/biome@2.1.3": "2.1.3",
-    "npm:@clack/prompts@0.11": "0.11.0",
     "npm:@eslint/eslintrc@3": "3.3.1",
     "npm:@radix-ui/react-avatar@^1.1.10": "1.1.10_@types+react@19.1.9_@types+react-dom@19.1.7__@types+react@19.1.9_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:@radix-ui/react-dropdown-menu@^2.1.15": "2.1.15_@types+react@19.1.9_@types+react-dom@19.1.7__@types+react@19.1.9_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:@radix-ui/react-separator@^1.1.7": "1.1.7_@types+react@19.1.9_@types+react-dom@19.1.7__@types+react@19.1.9_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:@radix-ui/react-slot@^1.2.3": "1.2.3_@types+react@19.1.9_react@19.1.0",
-    "npm:@rslib/core@~0.11.2": "0.11.2_typescript@5.9.2_@rsbuild+core@1.4.15__@swc+helpers@0.5.17",
     "npm:@tailwindcss/postcss@4": "4.1.11",
-    "npm:@types/node@20": "20.19.10",
-    "npm:@types/node@^22.17.0": "22.17.1",
+    "npm:@types/node@20": "20.19.9",
     "npm:@types/react-dom@19": "19.1.7_@types+react@19.1.9",
     "npm:@types/react@19": "19.1.9",
     "npm:axios@^1.11.0": "1.11.0",
-    "npm:boxen@^8.0.1": "8.0.1",
-    "npm:chalk@^5.5.0": "5.5.0",
     "npm:class-variance-authority@~0.7.1": "0.7.1",
     "npm:clsx@^2.1.1": "2.1.1",
     "npm:dayjs@^1.11.13": "1.11.13",
-    "npm:eslint-config-next@15.4.5": "15.4.5_eslint@9.33.0_typescript@5.9.2_@typescript-eslint+parser@8.39.0__eslint@9.33.0__typescript@5.9.2_eslint-plugin-import@2.32.0__eslint@9.33.0",
-    "npm:eslint@9": "9.33.0",
+    "npm:eslint-config-next@15.4.5": "15.4.5_eslint@9.32.0_typescript@5.9.2_@typescript-eslint+parser@8.39.0__eslint@9.32.0__typescript@5.9.2_eslint-plugin-import@2.32.0__eslint@9.32.0",
+    "npm:eslint@9": "9.32.0",
     "npm:lucide-react@0.536": "0.536.0_react@19.1.0",
     "npm:next-auth@5.0.0-beta.29": "5.0.0-beta.29_next@15.4.2-canary.35__react@19.1.0__react-dom@19.1.0___react@19.1.0_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:next@15.4.2-canary.35": "15.4.2-canary.35_react@19.1.0_react-dom@19.1.0__react@19.1.0",
-    "npm:prettier@^3.6.2": "3.6.2",
     "npm:react-dom@19.1.0": "19.1.0_react@19.1.0",
     "npm:react-icons@^5.5.0": "5.5.0_react@19.1.0",
     "npm:react@19.1.0": "19.1.0",
     "npm:tailwind-merge@^3.3.1": "3.3.1",
     "npm:tailwindcss@4": "4.1.11",
     "npm:tw-animate-css@^1.3.6": "1.3.6",
-    "npm:typescript@5": "5.9.2",
-    "npm:typescript@^5.9.2": "5.9.2"
+    "npm:typescript@5": "5.9.2"
   },
   "npm": {
     "@alloc/quick-lru@5.2.0": {
@@ -48,75 +40,6 @@
       ],
       "tarball": "https://registry.npmmirror.com/@ampproject/remapping/-/remapping-2.3.0.tgz"
     },
-    "@ast-grep/napi-darwin-arm64@0.37.0": {
-      "integrity": "sha512-QAiIiaAbLvMEg/yBbyKn+p1gX2/FuaC0SMf7D7capm/oG4xGMzdeaQIcSosF4TCxxV+hIH4Bz9e4/u7w6Bnk3Q==",
-      "os": ["darwin"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-darwin-arm64/-/napi-darwin-arm64-0.37.0.tgz"
-    },
-    "@ast-grep/napi-darwin-x64@0.37.0": {
-      "integrity": "sha512-zvcvdgekd4ySV3zUbUp8HF5nk5zqwiMXTuVzTUdl/w08O7JjM6XPOIVT+d2o/MqwM9rsXdzdergY5oY2RdhSPA==",
-      "os": ["darwin"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-darwin-x64/-/napi-darwin-x64-0.37.0.tgz"
-    },
-    "@ast-grep/napi-linux-arm64-gnu@0.37.0": {
-      "integrity": "sha512-L7Sj0lXy8X+BqSMgr1LB8cCoWk0rericdeu+dC8/c8zpsav5Oo2IQKY1PmiZ7H8IHoFBbURLf8iklY9wsD+cyA==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-linux-arm64-gnu/-/napi-linux-arm64-gnu-0.37.0.tgz"
-    },
-    "@ast-grep/napi-linux-arm64-musl@0.37.0": {
-      "integrity": "sha512-LF9sAvYy6es/OdyJDO3RwkX3I82Vkfsng1sqUBcoWC1jVb1wX5YVzHtpQox9JrEhGl+bNp7FYxB4Qba9OdA5GA==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-linux-arm64-musl/-/napi-linux-arm64-musl-0.37.0.tgz"
-    },
-    "@ast-grep/napi-linux-x64-gnu@0.37.0": {
-      "integrity": "sha512-TViz5/klqre6aSmJzswEIjApnGjJzstG/SE8VDWsrftMBMYt2PTu3MeluZVwzSqDao8doT/P+6U11dU05UOgxw==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-linux-x64-gnu/-/napi-linux-x64-gnu-0.37.0.tgz"
-    },
-    "@ast-grep/napi-linux-x64-musl@0.37.0": {
-      "integrity": "sha512-/BcCH33S9E3ovOAEoxYngUNXgb+JLg991sdyiNP2bSoYd30a9RHrG7CYwW6fMgua3ijQ474eV6cq9yZO1bCpXg==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-linux-x64-musl/-/napi-linux-x64-musl-0.37.0.tgz"
-    },
-    "@ast-grep/napi-win32-arm64-msvc@0.37.0": {
-      "integrity": "sha512-TjQA4cFoIEW2bgjLkaL9yqT4XWuuLa5MCNd0VCDhGRDMNQ9+rhwi9eLOWRaap3xzT7g+nlbcEHL3AkVCD2+b3A==",
-      "os": ["win32"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-win32-arm64-msvc/-/napi-win32-arm64-msvc-0.37.0.tgz"
-    },
-    "@ast-grep/napi-win32-ia32-msvc@0.37.0": {
-      "integrity": "sha512-uNmVka8fJCdYsyOlF9aZqQMLTatEYBynjChVTzUfFMDfmZ0bihs/YTqJVbkSm8TZM7CUX82apvn50z/dX5iWRA==",
-      "os": ["win32"],
-      "cpu": ["ia32"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-win32-ia32-msvc/-/napi-win32-ia32-msvc-0.37.0.tgz"
-    },
-    "@ast-grep/napi-win32-x64-msvc@0.37.0": {
-      "integrity": "sha512-vCiFOT3hSCQuHHfZ933GAwnPzmL0G04JxQEsBRfqONywyT8bSdDc/ECpAfr3S9VcS4JZ9/F6tkePKW/Om2Dq2g==",
-      "os": ["win32"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi-win32-x64-msvc/-/napi-win32-x64-msvc-0.37.0.tgz"
-    },
-    "@ast-grep/napi@0.37.0": {
-      "integrity": "sha512-Hb4o6h1Pf6yRUAX07DR4JVY7dmQw+RVQMW5/m55GoiAT/VRoKCWBtIUPPOnqDVhbx1Cjfil9b6EDrgJsUAujEQ==",
-      "optionalDependencies": [
-        "@ast-grep/napi-darwin-arm64",
-        "@ast-grep/napi-darwin-x64",
-        "@ast-grep/napi-linux-arm64-gnu",
-        "@ast-grep/napi-linux-arm64-musl",
-        "@ast-grep/napi-linux-x64-gnu",
-        "@ast-grep/napi-linux-x64-musl",
-        "@ast-grep/napi-win32-arm64-msvc",
-        "@ast-grep/napi-win32-ia32-msvc",
-        "@ast-grep/napi-win32-x64-msvc"
-      ],
-      "tarball": "https://registry.npmmirror.com/@ast-grep/napi/-/napi-0.37.0.tgz"
-    },
     "@auth/core@0.40.0_preact@10.24.3": {
       "integrity": "sha512-n53uJE0RH5SqZ7N1xZoMKekbHfQgjd0sAEyUbE+IYJnmuQkbvuZnXItCU7d+i7Fj8VGOgqvNO7Mw4YfBTlZeQw==",
       "dependencies": [
@@ -127,86 +50,6 @@
         "preact-render-to-string"
       ],
       "tarball": "https://registry.npmmirror.com/@auth/core/-/core-0.40.0.tgz"
-    },
-    "@biomejs/biome@2.1.3": {
-      "integrity": "sha512-KE/tegvJIxTkl7gJbGWSgun7G6X/n2M6C35COT6ctYrAy7SiPyNvi6JtoQERVK/VRbttZfgGq96j2bFmhmnH4w==",
-      "optionalDependencies": [
-        "@biomejs/cli-darwin-arm64",
-        "@biomejs/cli-darwin-x64",
-        "@biomejs/cli-linux-arm64",
-        "@biomejs/cli-linux-arm64-musl",
-        "@biomejs/cli-linux-x64",
-        "@biomejs/cli-linux-x64-musl",
-        "@biomejs/cli-win32-arm64",
-        "@biomejs/cli-win32-x64"
-      ],
-      "bin": true,
-      "tarball": "https://registry.npmmirror.com/@biomejs/biome/-/biome-2.1.3.tgz"
-    },
-    "@biomejs/cli-darwin-arm64@2.1.3": {
-      "integrity": "sha512-LFLkSWRoSGS1wVUD/BE6Nlt2dSn0ulH3XImzg2O/36BoToJHKXjSxzPEMAqT9QvwVtk7/9AQhZpTneERU9qaXA==",
-      "os": ["darwin"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.1.3.tgz"
-    },
-    "@biomejs/cli-darwin-x64@2.1.3": {
-      "integrity": "sha512-Q/4OTw8P9No9QeowyxswcWdm0n2MsdCwWcc5NcKQQvzwPjwuPdf8dpPPf4r+x0RWKBtl1FLiAUtJvBlri6DnYw==",
-      "os": ["darwin"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.1.3.tgz"
-    },
-    "@biomejs/cli-linux-arm64-musl@2.1.3": {
-      "integrity": "sha512-KXouFSBnoxAWZYDQrnNRzZBbt5s9UJkIm40hdvSL9mBxSSoxRFQJbtg1hP3aa8A2SnXyQHxQfpiVeJlczZt76w==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.1.3.tgz"
-    },
-    "@biomejs/cli-linux-arm64@2.1.3": {
-      "integrity": "sha512-2hS6LgylRqMFmAZCOFwYrf77QMdUwJp49oe8PX/O8+P2yKZMSpyQTf3Eo5ewnsMFUEmYbPOskafdV1ds1MZMJA==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.1.3.tgz"
-    },
-    "@biomejs/cli-linux-x64-musl@2.1.3": {
-      "integrity": "sha512-KaLAxnROouzIWtl6a0Y88r/4hW5oDUJTIqQorOTVQITaKQsKjZX4XCUmHIhdEk8zMnaiLZzRTAwk1yIAl+mIew==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.1.3.tgz"
-    },
-    "@biomejs/cli-linux-x64@2.1.3": {
-      "integrity": "sha512-NxlSCBhLvQtWGagEztfAZ4WcE1AkMTntZV65ZvR+J9jp06+EtOYEBPQndA70ZGhHbEDG57bR6uNvqkd1WrEYVA==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-linux-x64/-/cli-linux-x64-2.1.3.tgz"
-    },
-    "@biomejs/cli-win32-arm64@2.1.3": {
-      "integrity": "sha512-V9CUZCtWH4u0YwyCYbQ3W5F4ZGPWp2C2TYcsiWFNNyRfmOW1j/TY/jAurl33SaRjgZPO5UUhGyr9m6BN9t84NQ==",
-      "os": ["win32"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.1.3.tgz"
-    },
-    "@biomejs/cli-win32-x64@2.1.3": {
-      "integrity": "sha512-dxy599q6lgp8ANPpR8sDMscwdp9oOumEsVXuVCVT9N2vAho8uYXlCz53JhxX6LtJOXaE73qzgkGQ7QqvFlMC0g==",
-      "os": ["win32"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@biomejs/cli-win32-x64/-/cli-win32-x64-2.1.3.tgz"
-    },
-    "@clack/core@0.5.0": {
-      "integrity": "sha512-p3y0FIOwaYRUPRcMO7+dlmLh8PSRcrjuTndsiA0WAFbWES0mLZlrjVoBRZ9DzkPFJZG6KGkJmoEAY0ZcVWTkow==",
-      "dependencies": [
-        "picocolors",
-        "sisteransi"
-      ],
-      "tarball": "https://registry.npmmirror.com/@clack/core/-/core-0.5.0.tgz"
-    },
-    "@clack/prompts@0.11.0": {
-      "integrity": "sha512-pMN5FcrEw9hUkZA4f+zLlzivQSeQf5dRGJjSUbvVYDLvpKCdQx5OaknvKzgbtXOizhP+SJJJjqEbOe55uKKfAw==",
-      "dependencies": [
-        "@clack/core",
-        "picocolors",
-        "sisteransi"
-      ],
-      "tarball": "https://registry.npmmirror.com/@clack/prompts/-/prompts-0.11.0.tgz"
     },
     "@emnapi/core@1.4.5": {
       "integrity": "sha512-XsLw1dEOpkSX/WucdqUhPWP7hDxSvZiY+fsUC14h+FtQ2Ifni4znbBt8punRX+Uj2JG/uDb8nEHVKvrVlvdZ5Q==",
@@ -230,7 +73,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.0.4.tgz"
     },
-    "@eslint-community/eslint-utils@4.7.0_eslint@9.33.0": {
+    "@eslint-community/eslint-utils@4.7.0_eslint@9.32.0": {
       "integrity": "sha512-dyybb3AcajC7uha6CvhdVRJqaKyn7w2YKqKyAN37NKYgZT36w+iRb0Dymmc5qEJ549c/S31cMMSFd75bteCpCw==",
       "dependencies": [
         "eslint",
@@ -251,16 +94,16 @@
       ],
       "tarball": "https://registry.npmmirror.com/@eslint/config-array/-/config-array-0.21.0.tgz"
     },
-    "@eslint/config-helpers@0.3.1": {
-      "integrity": "sha512-xR93k9WhrDYpXHORXpxVL5oHj3Era7wo6k/Wd8/IsQNnZUTzkGS29lyn3nAT05v6ltUuTFVCCYDEGfy2Or/sPA==",
-      "tarball": "https://registry.npmmirror.com/@eslint/config-helpers/-/config-helpers-0.3.1.tgz"
+    "@eslint/config-helpers@0.3.0": {
+      "integrity": "sha512-ViuymvFmcJi04qdZeDc2whTHryouGcDlaxPqarTD0ZE10ISpxGUVZGZDx4w01upyIynL3iu6IXH2bS1NhclQMw==",
+      "tarball": "https://registry.npmmirror.com/@eslint/config-helpers/-/config-helpers-0.3.0.tgz"
     },
-    "@eslint/core@0.15.2": {
-      "integrity": "sha512-78Md3/Rrxh83gCxoUc0EiciuOHsIITzLy53m3d9UyiW8y9Dj2D29FeETqyKA+BRK76tnTp6RXWb3pCay8Oyomg==",
+    "@eslint/core@0.15.1": {
+      "integrity": "sha512-bkOp+iumZCCbt1K1CmWf0R9pM5yKpDv+ZXtvSyQpudrI9kuFLp+bM2WOPXImuD/ceQuaa8f5pj93Y7zyECIGNA==",
       "dependencies": [
         "@types/json-schema"
       ],
-      "tarball": "https://registry.npmmirror.com/@eslint/core/-/core-0.15.2.tgz"
+      "tarball": "https://registry.npmmirror.com/@eslint/core/-/core-0.15.1.tgz"
     },
     "@eslint/eslintrc@3.3.1": {
       "integrity": "sha512-gtF186CXhIl1p4pJNGZw8Yc6RlshoePRvE0X91oPGb3vZ8pM3qOS9W9NGPat9LziaBV7XrJWGylNQXkGcnM3IQ==",
@@ -277,21 +120,21 @@
       ],
       "tarball": "https://registry.npmmirror.com/@eslint/eslintrc/-/eslintrc-3.3.1.tgz"
     },
-    "@eslint/js@9.33.0": {
-      "integrity": "sha512-5K1/mKhWaMfreBGJTwval43JJmkip0RmM+3+IuqupeSKNC/Th2Kc7ucaq5ovTSra/OOKB9c58CGSz3QMVbWt0A==",
-      "tarball": "https://registry.npmmirror.com/@eslint/js/-/js-9.33.0.tgz"
+    "@eslint/js@9.32.0": {
+      "integrity": "sha512-BBpRFZK3eX6uMLKz8WxFOBIFFcGFJ/g8XuwjTHCqHROSIsopI+ddn/d5Cfh36+7+e5edVS8dbSHnBNhrLEX0zg==",
+      "tarball": "https://registry.npmmirror.com/@eslint/js/-/js-9.32.0.tgz"
     },
     "@eslint/object-schema@2.1.6": {
       "integrity": "sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA==",
       "tarball": "https://registry.npmmirror.com/@eslint/object-schema/-/object-schema-2.1.6.tgz"
     },
-    "@eslint/plugin-kit@0.3.5": {
-      "integrity": "sha512-Z5kJ+wU3oA7MMIqVR9tyZRtjYPr4OC004Q4Rw7pgOKUOKkJfZ3O24nz3WYfGRpMDNmcOi3TwQOmgm7B7Tpii0w==",
+    "@eslint/plugin-kit@0.3.4": {
+      "integrity": "sha512-Ul5l+lHEcw3L5+k8POx6r74mxEYKG5kOb6Xpy2gCRW6zweT6TEhAf8vhxGgjhqrd/VO/Dirhsb+1hNpD1ue9hw==",
       "dependencies": [
         "@eslint/core",
         "levn"
       ],
-      "tarball": "https://registry.npmmirror.com/@eslint/plugin-kit/-/plugin-kit-0.3.5.tgz"
+      "tarball": "https://registry.npmmirror.com/@eslint/plugin-kit/-/plugin-kit-0.3.4.tgz"
     },
     "@floating-ui/core@1.7.3": {
       "integrity": "sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==",
@@ -537,47 +380,6 @@
       ],
       "tarball": "https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.29.tgz"
     },
-    "@module-federation/error-codes@0.17.1": {
-      "integrity": "sha512-n6Elm4qKSjwAPxLUGtwnl7qt4y1dxB8OpSgVvXBIzqI9p27a3ZXshLPLnumlpPg1Qudaj8sLnSnFtt9yGpt5yQ==",
-      "tarball": "https://registry.npmmirror.com/@module-federation/error-codes/-/error-codes-0.17.1.tgz"
-    },
-    "@module-federation/runtime-core@0.17.1": {
-      "integrity": "sha512-LCtIFuKgWPQ3E+13OyrVpuTPOWBMI/Ggwsq1Q874YeT8Px28b8tJRCj09DjyRFyhpSPyV/uG80T6iXPAUoLIfQ==",
-      "dependencies": [
-        "@module-federation/error-codes",
-        "@module-federation/sdk"
-      ],
-      "tarball": "https://registry.npmmirror.com/@module-federation/runtime-core/-/runtime-core-0.17.1.tgz"
-    },
-    "@module-federation/runtime-tools@0.17.1": {
-      "integrity": "sha512-4kr6zTFFwGywJx6whBtxsc84V+COAuuBpEdEbPZN//YLXhNB0iz2IGsy9r9wDl+06h84bD+3dQ05l9euRLgXzQ==",
-      "dependencies": [
-        "@module-federation/runtime",
-        "@module-federation/webpack-bundler-runtime"
-      ],
-      "tarball": "https://registry.npmmirror.com/@module-federation/runtime-tools/-/runtime-tools-0.17.1.tgz"
-    },
-    "@module-federation/runtime@0.17.1": {
-      "integrity": "sha512-vKEN32MvUbpeuB/s6UXfkHDZ9N5jFyDDJnj83UTJ8n4N1jHIJu9VZ6Yi4/Ac8cfdvU8UIK9bIbfVXWbUYZUDsw==",
-      "dependencies": [
-        "@module-federation/error-codes",
-        "@module-federation/runtime-core",
-        "@module-federation/sdk"
-      ],
-      "tarball": "https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.17.1.tgz"
-    },
-    "@module-federation/sdk@0.17.1": {
-      "integrity": "sha512-nlUcN6UTEi+3HWF+k8wPy7gH0yUOmCT+xNatihkIVR9REAnr7BUvHFGlPJmx7WEbLPL46+zJUbtQHvLzXwFhng==",
-      "tarball": "https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.17.1.tgz"
-    },
-    "@module-federation/webpack-bundler-runtime@0.17.1": {
-      "integrity": "sha512-Swspdgf4PzcbvS9SNKFlBzfq8h/Qxwqjq/xRSqw1pqAZWondZQzwTTqPXhgrg0bFlz7qWjBS/6a8KuH/gRvGaQ==",
-      "dependencies": [
-        "@module-federation/runtime",
-        "@module-federation/sdk"
-      ],
-      "tarball": "https://registry.npmmirror.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.17.1.tgz"
-    },
     "@napi-rs/wasm-runtime@0.2.12": {
       "integrity": "sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==",
       "dependencies": [
@@ -586,15 +388,6 @@
         "@tybys/wasm-util@0.10.0"
       ],
       "tarball": "https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz"
-    },
-    "@napi-rs/wasm-runtime@1.0.3": {
-      "integrity": "sha512-rZxtMsLwjdXkMUGC3WwsPwLNVqVqnTJT6MNIB6e+5fhMcSCPP0AOsNWuMQ5mdCq6HNjs/ZeWAEchpqeprqBD2Q==",
-      "dependencies": [
-        "@emnapi/core",
-        "@emnapi/runtime",
-        "@tybys/wasm-util@0.10.0"
-      ],
-      "tarball": "https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.0.3.tgz"
     },
     "@next/env@15.4.2-canary.35": {
       "integrity": "sha512-sUXtCTz1gnE/2/VFvHuwKsfOpHsLdUwfMuAySZFSiTIZmyqr7kedSpx7/MoKJNVg4TQY4ACqqxKP8/MSrvjbMQ==",
@@ -613,11 +406,23 @@
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.2-canary.35.tgz"
     },
+    "@next/swc-darwin-arm64@15.4.5": {
+      "integrity": "sha512-84dAN4fkfdC7nX6udDLz9GzQlMUwEMKD7zsseXrl7FTeIItF8vpk1lhLEnsotiiDt+QFu3O1FVWnqwcRD2U3KA==",
+      "os": ["darwin"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.4.5.tgz"
+    },
     "@next/swc-darwin-x64@15.4.2-canary.35": {
       "integrity": "sha512-XkZz0QzCh3kEmvAEMapwBk7m2+IweOaW3uj4+m0EUCHaYTdCjS0zSLvk7q1xi6PVEzRb898YHL1BmwalpSD9JA==",
       "os": ["darwin"],
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.2-canary.35.tgz"
+    },
+    "@next/swc-darwin-x64@15.4.5": {
+      "integrity": "sha512-CL6mfGsKuFSyQjx36p2ftwMNSb8PQog8y0HO/ONLdQqDql7x3aJb/wB+LA651r4we2pp/Ck+qoRVUeZZEvSurA==",
+      "os": ["darwin"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-15.4.5.tgz"
     },
     "@next/swc-linux-arm64-gnu@15.4.2-canary.35": {
       "integrity": "sha512-PJsvjIHsxygdTbx9a7SCo9wuKqypcPfAWpIxxe0SZim+VVktPo5a0hR0ILUP+UPuvQIYvSa+g43/WYw56UqaAA==",
@@ -625,11 +430,23 @@
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.2-canary.35.tgz"
     },
+    "@next/swc-linux-arm64-gnu@15.4.5": {
+      "integrity": "sha512-1hTVd9n6jpM/thnDc5kYHD1OjjWYpUJrJxY4DlEacT7L5SEOXIifIdTye6SQNNn8JDZrcN+n8AWOmeJ8u3KlvQ==",
+      "os": ["linux"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-15.4.5.tgz"
+    },
     "@next/swc-linux-arm64-musl@15.4.2-canary.35": {
       "integrity": "sha512-jEVINadLGdH61wNgY4JePO4dUncBkw9UMWcBCg//Xk1+/ELSX1se8q7tspDAHptLp1RudUGoPzVhu183jgp0ww==",
       "os": ["linux"],
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.2-canary.35.tgz"
+    },
+    "@next/swc-linux-arm64-musl@15.4.5": {
+      "integrity": "sha512-4W+D/nw3RpIwGrqpFi7greZ0hjrCaioGErI7XHgkcTeWdZd146NNu1s4HnaHonLeNTguKnL2Urqvj28UJj6Gqw==",
+      "os": ["linux"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-15.4.5.tgz"
     },
     "@next/swc-linux-x64-gnu@15.4.2-canary.35": {
       "integrity": "sha512-7oHa+kge/2UXoI2Qg6CKJMOpURXxJ684Brz5UBks75bM1u2NJv7P4rqR0g0UaAalOktJMzogm9kRCiHuwoCvmA==",
@@ -637,11 +454,23 @@
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.2-canary.35.tgz"
     },
+    "@next/swc-linux-x64-gnu@15.4.5": {
+      "integrity": "sha512-N6Mgdxe/Cn2K1yMHge6pclffkxzbSGOydXVKYOjYqQXZYjLCfN/CuFkaYDeDHY2VBwSHyM2fUjYBiQCIlxIKDA==",
+      "os": ["linux"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.4.5.tgz"
+    },
     "@next/swc-linux-x64-musl@15.4.2-canary.35": {
       "integrity": "sha512-RaWGdbcEXS9Weq3kq7052Pxw3TN5+/uLXH9zxZZAXoJhcYychu5rJirid5+yGPGJxpgmtvsHyJu9Z7KY7INsyw==",
       "os": ["linux"],
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.2-canary.35.tgz"
+    },
+    "@next/swc-linux-x64-musl@15.4.5": {
+      "integrity": "sha512-YZ3bNDrS8v5KiqgWE0xZQgtXgCTUacgFtnEgI4ccotAASwSvcMPDLua7BWLuTfucoRv6mPidXkITJLd8IdJplQ==",
+      "os": ["linux"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.4.5.tgz"
     },
     "@next/swc-win32-arm64-msvc@15.4.2-canary.35": {
       "integrity": "sha512-WZL9bVp/jTS3MQkOgdI9jhI3MAvf6rUqMENKh9xqmyepmbt1sX6Wgj7EwkIlyO4il+hSHgzQKC9TTUuLv8nRlQ==",
@@ -649,11 +478,23 @@
       "cpu": ["arm64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.2-canary.35.tgz"
     },
+    "@next/swc-win32-arm64-msvc@15.4.5": {
+      "integrity": "sha512-9Wr4t9GkZmMNcTVvSloFtjzbH4vtT4a8+UHqDoVnxA5QyfWe6c5flTH1BIWPGNWSUlofc8dVJAE7j84FQgskvQ==",
+      "os": ["win32"],
+      "cpu": ["arm64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-15.4.5.tgz"
+    },
     "@next/swc-win32-x64-msvc@15.4.2-canary.35": {
       "integrity": "sha512-rAjtZw4VoqAn/qpt80np2CsGKgnhfS/9DIxV4s3doDe1MRZPFwkkeY1MTnZ5Yc4X8RdmgWI96hGOyTyEAkErCQ==",
       "os": ["win32"],
       "cpu": ["x64"],
       "tarball": "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.4.2-canary.35.tgz"
+    },
+    "@next/swc-win32-x64-msvc@15.4.5": {
+      "integrity": "sha512-voWk7XtGvlsP+w8VBz7lqp8Y+dYw/MTI4KeS0gTVtfdhdJ5QwhXLmNrndFOin/MDoCvUaLWMkYKATaCoUkt2/A==",
+      "os": ["win32"],
+      "cpu": ["x64"],
+      "tarball": "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.4.5.tgz"
     },
     "@nodelib/fs.scandir@2.1.5": {
       "integrity": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
@@ -1104,127 +945,6 @@
       "integrity": "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw==",
       "tarball": "https://registry.npmmirror.com/@radix-ui/rect/-/rect-1.1.1.tgz"
     },
-    "@rsbuild/core@1.4.15_@swc+helpers@0.5.17": {
-      "integrity": "sha512-KoSTtKjzQUQwamcbeCp63Ne9kL7io1WI4+skTJe2chfLz6wsp/Gfg8aKkfs1DuyG1p+zxFDcYpwTWMsNtxqqiw==",
-      "dependencies": [
-        "@rspack/core",
-        "@rspack/lite-tapable",
-        "@swc/helpers@0.5.17",
-        "core-js",
-        "jiti"
-      ],
-      "bin": true,
-      "tarball": "https://registry.npmmirror.com/@rsbuild/core/-/core-1.4.15.tgz"
-    },
-    "@rslib/core@0.11.2_typescript@5.9.2_@rsbuild+core@1.4.15__@swc+helpers@0.5.17": {
-      "integrity": "sha512-NubpSx2DF5sSBpzJRQTsS2xFPdC2nCTBTRbQVXUNBYJikmJY6XgI1MU2jPzrecjX7QZOaH8APt2AEiWl0YNlrg==",
-      "dependencies": [
-        "@rsbuild/core",
-        "rsbuild-plugin-dts",
-        "tinyglobby",
-        "typescript"
-      ],
-      "optionalPeers": [
-        "typescript"
-      ],
-      "bin": true,
-      "tarball": "https://registry.npmmirror.com/@rslib/core/-/core-0.11.2.tgz"
-    },
-    "@rspack/binding-darwin-arm64@1.4.11": {
-      "integrity": "sha512-PrmBVhR8MC269jo6uQ+BMy1uwIDx0HAJYLQRQur8gXiehWabUBCRg/d4U9KR7rLzdaSScRyc5JWXR52T7/4MfA==",
-      "os": ["darwin"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.4.11.tgz"
-    },
-    "@rspack/binding-darwin-x64@1.4.11": {
-      "integrity": "sha512-YIV8Wzy+JY0SoSsVtN4wxFXOjzxxVPnVXNswrrfqVUTPr9jqGOFYUWCGpbt8lcCgfuBFm6zN8HpOsKm1xUNsVA==",
-      "os": ["darwin"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.4.11.tgz"
-    },
-    "@rspack/binding-linux-arm64-gnu@1.4.11": {
-      "integrity": "sha512-ms6uwECUIcu+6e82C5HJhRMHnfsI+l33v7XQezntzRPN0+sG3EpikEoT7SGbgt4vDwaWLR7wS20suN4qd5r3GA==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.4.11.tgz"
-    },
-    "@rspack/binding-linux-arm64-musl@1.4.11": {
-      "integrity": "sha512-9evq0DOdxMN/H8VM8ZmyY9NSuBgILNVV6ydBfVPMHPx4r1E7JZGpWeKDegZcS5Erw3sS9kVSIxyX78L5PDzzKw==",
-      "os": ["linux"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.4.11.tgz"
-    },
-    "@rspack/binding-linux-x64-gnu@1.4.11": {
-      "integrity": "sha512-bHYFLxPPYBOSaHdQbEoCYGMQ1gOrEWj7Mro/DLfSHZi1a0okcQ2Q1y0i1DczReim3ZhLGNrK7k1IpFXCRbAobQ==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.4.11.tgz"
-    },
-    "@rspack/binding-linux-x64-musl@1.4.11": {
-      "integrity": "sha512-wrm4E7q2k4+cwT6Uhp6hIQ3eUe/YoaUttj6j5TqHYZX6YeLrNPtD9+ne6lQQ17BV8wmm6NZsmoFIJ5xIptpRhQ==",
-      "os": ["linux"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.4.11.tgz"
-    },
-    "@rspack/binding-wasm32-wasi@1.4.11": {
-      "integrity": "sha512-hiYxHZjaZ17wQtXyLCK0IdtOvMWreGVTiGsaHCxyeT+SldDG+r16bXNjmlqfZsjlfl1mkAqKz1dg+mMX28OTqw==",
-      "dependencies": [
-        "@napi-rs/wasm-runtime@1.0.3"
-      ],
-      "cpu": ["wasm32"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-wasm32-wasi/-/binding-wasm32-wasi-1.4.11.tgz"
-    },
-    "@rspack/binding-win32-arm64-msvc@1.4.11": {
-      "integrity": "sha512-+HF/mnjmTr8PC1dccRt1bkrD2tPDGeqvXC1BBLYd/Klq1VbtIcnrhfmvQM6KaXbiLcY9VWKzcZPOTmnyZ8TaHQ==",
-      "os": ["win32"],
-      "cpu": ["arm64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.4.11.tgz"
-    },
-    "@rspack/binding-win32-ia32-msvc@1.4.11": {
-      "integrity": "sha512-EU2fQGwrRfwFd/tcOInlD0jy6gNQE4Q3Ayj0Is+cX77sbhPPyyOz0kZDEaQ4qaN2VU8w4Hu/rrD7c0GAKLFvCw==",
-      "os": ["win32"],
-      "cpu": ["ia32"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.4.11.tgz"
-    },
-    "@rspack/binding-win32-x64-msvc@1.4.11": {
-      "integrity": "sha512-1Nc5ZzWqfvE+iJc47qtHFzYYnHsC3awavXrCo74GdGip1vxtksM3G30BlvAQHHVtEmULotWqPbjZpflw/Xk9Ag==",
-      "os": ["win32"],
-      "cpu": ["x64"],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.4.11.tgz"
-    },
-    "@rspack/binding@1.4.11": {
-      "integrity": "sha512-maGl/zRwnl0QVwkBCkgjn5PH20L9HdlRIdkYhEsfTepy5x2QZ0ti/0T49djjTJQrqb+S1i6wWQymMMMMMsxx6Q==",
-      "optionalDependencies": [
-        "@rspack/binding-darwin-arm64",
-        "@rspack/binding-darwin-x64",
-        "@rspack/binding-linux-arm64-gnu",
-        "@rspack/binding-linux-arm64-musl",
-        "@rspack/binding-linux-x64-gnu",
-        "@rspack/binding-linux-x64-musl",
-        "@rspack/binding-wasm32-wasi",
-        "@rspack/binding-win32-arm64-msvc",
-        "@rspack/binding-win32-ia32-msvc",
-        "@rspack/binding-win32-x64-msvc"
-      ],
-      "tarball": "https://registry.npmmirror.com/@rspack/binding/-/binding-1.4.11.tgz"
-    },
-    "@rspack/core@1.4.11_@swc+helpers@0.5.17": {
-      "integrity": "sha512-JtKnL6p7Kc/YgWQJF3Woo4OccbgKGyT/4187W4dyex8BMkdQcbqCNIdi6dFk02hwQzxpOOxRSBI4hlGRbz7oYQ==",
-      "dependencies": [
-        "@module-federation/runtime-tools",
-        "@rspack/binding",
-        "@rspack/lite-tapable",
-        "@swc/helpers@0.5.17"
-      ],
-      "optionalPeers": [
-        "@swc/helpers@0.5.17"
-      ],
-      "tarball": "https://registry.npmmirror.com/@rspack/core/-/core-1.4.11.tgz"
-    },
-    "@rspack/lite-tapable@1.0.1": {
-      "integrity": "sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==",
-      "tarball": "https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz"
-    },
     "@rtsao/scc@1.1.0": {
       "integrity": "sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==",
       "tarball": "https://registry.npmmirror.com/@rtsao/scc/-/scc-1.1.0.tgz"
@@ -1239,13 +959,6 @@
         "tslib"
       ],
       "tarball": "https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz"
-    },
-    "@swc/helpers@0.5.17": {
-      "integrity": "sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==",
-      "dependencies": [
-        "tslib"
-      ],
-      "tarball": "https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.17.tgz"
     },
     "@tailwindcss/node@4.1.11": {
       "integrity": "sha512-yzhzuGRmv5QyU9qLNg4GTlYI6STedBWRE7NjxP45CsFYYq9taI0zJXZBMqIC/c8fViNLhmrbpSFS57EoxUmD6Q==",
@@ -1320,7 +1033,7 @@
         "@emnapi/core",
         "@emnapi/runtime",
         "@emnapi/wasi-threads",
-        "@napi-rs/wasm-runtime@0.2.12",
+        "@napi-rs/wasm-runtime",
         "@tybys/wasm-util@0.9.0",
         "tslib"
       ],
@@ -1399,19 +1112,12 @@
       "integrity": "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==",
       "tarball": "https://registry.npmmirror.com/@types/json5/-/json5-0.0.29.tgz"
     },
-    "@types/node@20.19.10": {
-      "integrity": "sha512-iAFpG6DokED3roLSP0K+ybeDdIX6Bc0Vd3mLW5uDqThPWtNos3E+EqOM11mPQHKzfWHqEBuLjIlsBQQ8CsISmQ==",
+    "@types/node@20.19.9": {
+      "integrity": "sha512-cuVNgarYWZqxRJDQHEB58GEONhOK79QVR/qYx4S7kcUObQvUwvFnYxJuuHUKm2aieN9X3yZB4LZsuYNU1Qphsw==",
       "dependencies": [
         "undici-types"
       ],
-      "tarball": "https://registry.npmmirror.com/@types/node/-/node-20.19.10.tgz"
-    },
-    "@types/node@22.17.1": {
-      "integrity": "sha512-y3tBaz+rjspDTylNjAX37jEC3TETEFGNJL6uQDxwF9/8GLLIjW1rvVHlynyuUKMnMr1Roq8jOv3vkopBjC4/VA==",
-      "dependencies": [
-        "undici-types"
-      ],
-      "tarball": "https://registry.npmmirror.com/@types/node/-/node-22.17.1.tgz"
+      "tarball": "https://registry.npmmirror.com/@types/node/-/node-20.19.9.tgz"
     },
     "@types/react-dom@19.1.7_@types+react@19.1.9": {
       "integrity": "sha512-i5ZzwYpqjmrKenzkoLM2Ibzt6mAsM7pxB6BCIouEVVmgiqaMj1TjaK7hnA36hbW5aZv20kx7Lw6hWzPWg0Rurw==",
@@ -1427,7 +1133,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@types/react/-/react-19.1.9.tgz"
     },
-    "@typescript-eslint/eslint-plugin@8.39.0_@typescript-eslint+parser@8.39.0__eslint@9.33.0__typescript@5.9.2_eslint@9.33.0_typescript@5.9.2": {
+    "@typescript-eslint/eslint-plugin@8.39.0_@typescript-eslint+parser@8.39.0__eslint@9.32.0__typescript@5.9.2_eslint@9.32.0_typescript@5.9.2": {
       "integrity": "sha512-bhEz6OZeUR+O/6yx9Jk6ohX6H9JSFTaiY0v9/PuKT3oGK0rn0jNplLmyFUGV+a9gfYnVNwGDwS/UkLIuXNb2Rw==",
       "dependencies": [
         "@eslint-community/regexpp",
@@ -1445,7 +1151,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.39.0.tgz"
     },
-    "@typescript-eslint/parser@8.39.0_eslint@9.33.0_typescript@5.9.2": {
+    "@typescript-eslint/parser@8.39.0_eslint@9.32.0_typescript@5.9.2": {
       "integrity": "sha512-g3WpVQHngx0aLXn6kfIYCZxM6rRJlWzEkVpqEFLT3SgEDsp9cpCbxxgwnE504q4H+ruSDh/VGS6nqZIDynP+vg==",
       "dependencies": [
         "@typescript-eslint/scope-manager",
@@ -1483,7 +1189,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.39.0.tgz"
     },
-    "@typescript-eslint/type-utils@8.39.0_eslint@9.33.0_typescript@5.9.2": {
+    "@typescript-eslint/type-utils@8.39.0_eslint@9.32.0_typescript@5.9.2": {
       "integrity": "sha512-6B3z0c1DXVT2vYA9+z9axjtc09rqKUPRmijD5m9iv8iQpHBRYRMBcgxSiKTZKm6FwWw1/cI4v6em35OsKCiN5Q==",
       "dependencies": [
         "@typescript-eslint/types",
@@ -1517,7 +1223,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.39.0.tgz"
     },
-    "@typescript-eslint/utils@8.39.0_eslint@9.33.0_typescript@5.9.2": {
+    "@typescript-eslint/utils@8.39.0_eslint@9.32.0_typescript@5.9.2": {
       "integrity": "sha512-4GVSvNA0Vx1Ktwvf4sFE+exxJ3QGUorQG1/A5mRfRNZtkBT2xrA/BCO2H0eALx/PnvCS6/vmYwRdDA41EoffkQ==",
       "dependencies": [
         "@eslint-community/eslint-utils",
@@ -1630,7 +1336,7 @@
     "@unrs/resolver-binding-wasm32-wasi@1.11.1": {
       "integrity": "sha512-5u4RkfxJm+Ng7IWgkzi3qrFOvLvQYnPBmjmZQ8+szTK/b31fQCnleNl1GgEt7nIsZRIf5PLhPwT0WM+q45x/UQ==",
       "dependencies": [
-        "@napi-rs/wasm-runtime@0.2.12"
+        "@napi-rs/wasm-runtime"
       ],
       "cpu": ["wasm32"],
       "tarball": "https://registry.npmmirror.com/@unrs/resolver-binding-wasm32-wasi/-/resolver-binding-wasm32-wasi-1.11.1.tgz"
@@ -1675,31 +1381,12 @@
       ],
       "tarball": "https://registry.npmmirror.com/ajv/-/ajv-6.12.6.tgz"
     },
-    "ansi-align@3.0.1": {
-      "integrity": "sha512-IOfwwBF5iczOjp/WeY4YxyjqAFMQoZufdQWDd19SEExbVLNXqvpzSJ/M7Za4/sCPmQ0+GRquoA7bGcINcxew6w==",
-      "dependencies": [
-        "string-width@4.2.3"
-      ],
-      "tarball": "https://registry.npmmirror.com/ansi-align/-/ansi-align-3.0.1.tgz"
-    },
-    "ansi-regex@5.0.1": {
-      "integrity": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
-      "tarball": "https://registry.npmmirror.com/ansi-regex/-/ansi-regex-5.0.1.tgz"
-    },
-    "ansi-regex@6.1.0": {
-      "integrity": "sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==",
-      "tarball": "https://registry.npmmirror.com/ansi-regex/-/ansi-regex-6.1.0.tgz"
-    },
     "ansi-styles@4.3.0": {
       "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
       "dependencies": [
         "color-convert"
       ],
       "tarball": "https://registry.npmmirror.com/ansi-styles/-/ansi-styles-4.3.0.tgz"
-    },
-    "ansi-styles@6.2.1": {
-      "integrity": "sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==",
-      "tarball": "https://registry.npmmirror.com/ansi-styles/-/ansi-styles-6.2.1.tgz"
     },
     "argparse@2.0.1": {
       "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
@@ -1847,20 +1534,6 @@
       "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
       "tarball": "https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz"
     },
-    "boxen@8.0.1": {
-      "integrity": "sha512-F3PH5k5juxom4xktynS7MoFY+NUWH5LC4CnH11YB8NPew+HLpmBLCybSAEyb2F+4pRXhuhWqFesoQd6DAyc2hw==",
-      "dependencies": [
-        "ansi-align",
-        "camelcase",
-        "chalk@5.5.0",
-        "cli-boxes",
-        "string-width@7.2.0",
-        "type-fest",
-        "widest-line",
-        "wrap-ansi"
-      ],
-      "tarball": "https://registry.npmmirror.com/boxen/-/boxen-8.0.1.tgz"
-    },
     "brace-expansion@1.1.12": {
       "integrity": "sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==",
       "dependencies": [
@@ -1913,10 +1586,6 @@
       "integrity": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
       "tarball": "https://registry.npmmirror.com/callsites/-/callsites-3.1.0.tgz"
     },
-    "camelcase@8.0.0": {
-      "integrity": "sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==",
-      "tarball": "https://registry.npmmirror.com/camelcase/-/camelcase-8.0.0.tgz"
-    },
     "caniuse-lite@1.0.30001734": {
       "integrity": "sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==",
       "tarball": "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001734.tgz"
@@ -1924,14 +1593,10 @@
     "chalk@4.1.2": {
       "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
       "dependencies": [
-        "ansi-styles@4.3.0",
+        "ansi-styles",
         "supports-color"
       ],
       "tarball": "https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz"
-    },
-    "chalk@5.5.0": {
-      "integrity": "sha512-1tm8DTaJhPBG3bIkVeZt1iZM9GfSX2lzOeDVZH9R9ffRHpmHvxZ/QhgQH/aDTkswQVt+YHdXAdS/In/30OjCbg==",
-      "tarball": "https://registry.npmmirror.com/chalk/-/chalk-5.5.0.tgz"
     },
     "chownr@3.0.0": {
       "integrity": "sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==",
@@ -1943,10 +1608,6 @@
         "clsx"
       ],
       "tarball": "https://registry.npmmirror.com/class-variance-authority/-/class-variance-authority-0.7.1.tgz"
-    },
-    "cli-boxes@3.0.0": {
-      "integrity": "sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g==",
-      "tarball": "https://registry.npmmirror.com/cli-boxes/-/cli-boxes-3.0.0.tgz"
     },
     "client-only@0.0.1": {
       "integrity": "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==",
@@ -1993,11 +1654,6 @@
     "concat-map@0.0.1": {
       "integrity": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
       "tarball": "https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz"
-    },
-    "core-js@3.45.0": {
-      "integrity": "sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==",
-      "scripts": true,
-      "tarball": "https://registry.npmmirror.com/core-js/-/core-js-3.45.0.tgz"
     },
     "cross-spawn@7.0.6": {
       "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
@@ -2111,25 +1767,17 @@
       ],
       "tarball": "https://registry.npmmirror.com/dunder-proto/-/dunder-proto-1.0.1.tgz"
     },
-    "emoji-regex@10.4.0": {
-      "integrity": "sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==",
-      "tarball": "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-10.4.0.tgz"
-    },
-    "emoji-regex@8.0.0": {
-      "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",
-      "tarball": "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz"
-    },
     "emoji-regex@9.2.2": {
       "integrity": "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==",
       "tarball": "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-9.2.2.tgz"
     },
-    "enhanced-resolve@5.18.3": {
-      "integrity": "sha512-d4lC8xfavMeBjzGr2vECC3fsGXziXZQyJxD868h2M/mBI3PwAuODxAkLkq5HYuvrPYcUtiLzsTo8U3PgX3Ocww==",
+    "enhanced-resolve@5.18.2": {
+      "integrity": "sha512-6Jw4sE1maoRJo3q8MsSIn2onJFbLTOjY9hlx4DZXmOKvLRd1Ok2kXmAGXaafL2+ijsJZ1ClYbl/pmqr9+k4iUQ==",
       "dependencies": [
         "graceful-fs",
         "tapable"
       ],
-      "tarball": "https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.3.tgz"
+      "tarball": "https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.2.tgz"
     },
     "es-abstract@1.24.0": {
       "integrity": "sha512-WSzPgsdLtTcQwm4CROfS5ju2Wa1QQcVeT37jFjYzdFz1r9ahadC8B8/a4qxJxM+09F18iumCdRmlr96ZYkQvEg==",
@@ -2258,7 +1906,7 @@
       "integrity": "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==",
       "tarball": "https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
     },
-    "eslint-config-next@15.4.5_eslint@9.33.0_typescript@5.9.2_@typescript-eslint+parser@8.39.0__eslint@9.33.0__typescript@5.9.2_eslint-plugin-import@2.32.0__eslint@9.33.0": {
+    "eslint-config-next@15.4.5_eslint@9.32.0_typescript@5.9.2_@typescript-eslint+parser@8.39.0__eslint@9.32.0__typescript@5.9.2_eslint-plugin-import@2.32.0__eslint@9.32.0": {
       "integrity": "sha512-IMijiXaZ43qFB+Gcpnb374ipTKD8JIyVNR+6VsifFQ/LHyx+A9wgcgSIhCX5PYSjwOoSYD5LtNHKlM5uc23eww==",
       "dependencies": [
         "@next/eslint-plugin-next",
@@ -2288,7 +1936,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz"
     },
-    "eslint-import-resolver-typescript@3.10.1_eslint@9.33.0_eslint-plugin-import@2.32.0__eslint@9.33.0": {
+    "eslint-import-resolver-typescript@3.10.1_eslint@9.32.0_eslint-plugin-import@2.32.0__eslint@9.32.0": {
       "integrity": "sha512-A1rHYb06zjMGAxdLSkN2fXPBwuSaQ0iO5M/hdyS0Ajj1VBaRp0sPD3dn1FhME3c/JluGFbwSxyCfqdSbtQLAHQ==",
       "dependencies": [
         "@nolyfill/is-core-module",
@@ -2313,7 +1961,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/eslint-module-utils/-/eslint-module-utils-2.12.1.tgz"
     },
-    "eslint-plugin-import@2.32.0_eslint@9.33.0": {
+    "eslint-plugin-import@2.32.0_eslint@9.32.0": {
       "integrity": "sha512-whOE1HFo/qJDyX4SnXzP4N6zOWn79WhnCUY/iDR0mPfQZO8wcYE4JClzI2oZrhBnnMUCBCHZhO6VQyoBU95mZA==",
       "dependencies": [
         "@rtsao/scc",
@@ -2335,11 +1983,11 @@
         "object.values",
         "semver@6.3.1",
         "string.prototype.trimend",
-        "tsconfig-paths@3.15.0"
+        "tsconfig-paths"
       ],
       "tarball": "https://registry.npmmirror.com/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz"
     },
-    "eslint-plugin-jsx-a11y@6.10.2_eslint@9.33.0": {
+    "eslint-plugin-jsx-a11y@6.10.2_eslint@9.32.0": {
       "integrity": "sha512-scB3nz4WmG75pV8+3eRUQOHZlNSUhFNq37xnpgRkCCELU3XMvXAxLk1eqWWyE22Ki4Q01Fnsw9BA3cJHDPgn2Q==",
       "dependencies": [
         "aria-query",
@@ -2349,7 +1997,7 @@
         "axe-core",
         "axobject-query",
         "damerau-levenshtein",
-        "emoji-regex@9.2.2",
+        "emoji-regex",
         "eslint",
         "hasown",
         "jsx-ast-utils",
@@ -2361,14 +2009,14 @@
       ],
       "tarball": "https://registry.npmmirror.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.10.2.tgz"
     },
-    "eslint-plugin-react-hooks@5.2.0_eslint@9.33.0": {
+    "eslint-plugin-react-hooks@5.2.0_eslint@9.32.0": {
       "integrity": "sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==",
       "dependencies": [
         "eslint"
       ],
       "tarball": "https://registry.npmmirror.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz"
     },
-    "eslint-plugin-react@7.37.5_eslint@9.33.0": {
+    "eslint-plugin-react@7.37.5_eslint@9.32.0": {
       "integrity": "sha512-Qteup0SqU15kdocexFNAJMvCJEfa2xUKNV4CC1xsVMrIIqEy3SQ/rqyxCWNzfrd3/ldy6HMlD2e0JDVpDg2qIA==",
       "dependencies": [
         "array-includes",
@@ -2409,8 +2057,8 @@
       "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
       "tarball": "https://registry.npmmirror.com/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz"
     },
-    "eslint@9.33.0": {
-      "integrity": "sha512-TS9bTNIryDzStCpJN93aC5VRSW3uTx9sClUn4B87pwiCaJh220otoI0X8mJKr+VcPtniMdN8GKjlwgWGUv5ZKA==",
+    "eslint@9.32.0": {
+      "integrity": "sha512-LSehfdpgMeWcTZkWZVIJl+tkZ2nuSkyyB9C27MZqFWXuph7DvaowgcTvKqxvpLW1JZIk8PN7hFY3Rj9LQ7m7lg==",
       "dependencies": [
         "@eslint-community/eslint-utils",
         "@eslint-community/regexpp",
@@ -2426,7 +2074,7 @@
         "@types/estree",
         "@types/json-schema",
         "ajv",
-        "chalk@4.1.2",
+        "chalk",
         "cross-spawn",
         "debug@4.4.1",
         "escape-string-regexp",
@@ -2449,7 +2097,7 @@
         "optionator"
       ],
       "bin": true,
-      "tarball": "https://registry.npmmirror.com/eslint/-/eslint-9.33.0.tgz"
+      "tarball": "https://registry.npmmirror.com/eslint/-/eslint-9.32.0.tgz"
     },
     "espree@10.4.0_acorn@8.15.0": {
       "integrity": "sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ==",
@@ -2608,10 +2256,6 @@
     "functions-have-names@1.2.3": {
       "integrity": "sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==",
       "tarball": "https://registry.npmmirror.com/functions-have-names/-/functions-have-names-1.2.3.tgz"
-    },
-    "get-east-asian-width@1.3.0": {
-      "integrity": "sha512-vpeMIQKxczTD/0s2CdEWHcb0eeJe6TFjxb+J5xgX7hScxqrGuyjmv4c1D4A/gelKfyox0gJJwIHF+fLjeaM8kQ==",
-      "tarball": "https://registry.npmmirror.com/get-east-asian-width/-/get-east-asian-width-1.3.0.tgz"
     },
     "get-intrinsic@1.3.0": {
       "integrity": "sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==",
@@ -2849,10 +2493,6 @@
       ],
       "tarball": "https://registry.npmmirror.com/is-finalizationregistry/-/is-finalizationregistry-1.1.1.tgz"
     },
-    "is-fullwidth-code-point@3.0.0": {
-      "integrity": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==",
-      "tarball": "https://registry.npmmirror.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
-    },
     "is-generator-function@1.1.0": {
       "integrity": "sha512-nPUB5km40q9e8UfN/Zc24eLlzdSf9OfKByBw9CIdw4H1giPMeA0OIJvbchsCu4npfI2QcMVBsGEBHKZ7wLTWmQ==",
       "dependencies": [
@@ -3014,11 +2654,6 @@
       ],
       "bin": true,
       "tarball": "https://registry.npmmirror.com/json5/-/json5-1.0.2.tgz"
-    },
-    "json5@2.2.3": {
-      "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
-      "bin": true,
-      "tarball": "https://registry.npmmirror.com/json5/-/json5-2.2.3.tgz"
     },
     "jsx-ast-utils@3.3.5": {
       "integrity": "sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==",
@@ -3238,10 +2873,10 @@
       "bin": true,
       "tarball": "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.11.tgz"
     },
-    "napi-postinstall@0.3.3": {
-      "integrity": "sha512-uTp172LLXSxuSYHv/kou+f6KW3SMppU9ivthaVTXian9sOt3XM/zHYHpRZiLgQoxeWfYUnslNWQHF1+G71xcow==",
+    "napi-postinstall@0.3.2": {
+      "integrity": "sha512-tWVJxJHmBWLy69PvO96TZMZDrzmw5KeiZBz3RHmiM2XZ9grBJ2WgMAFVVg25nqp3ZjTFUs2Ftw1JhscL3Teliw==",
       "bin": true,
-      "tarball": "https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.3.tgz"
+      "tarball": "https://registry.npmmirror.com/napi-postinstall/-/napi-postinstall-0.3.2.tgz"
     },
     "natural-compare@1.4.0": {
       "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
@@ -3260,7 +2895,7 @@
       "integrity": "sha512-HSEb8jSsaa2MZg6J9M7zX07yQz82K8NC70J1aWSZ7Dxh16yjjK5peC+ZPhrs2nRTLm2U7PETPzoFK0Jfbu4FAA==",
       "dependencies": [
         "@next/env",
-        "@swc/helpers@0.5.15",
+        "@swc/helpers",
         "caniuse-lite",
         "postcss@8.4.31",
         "react",
@@ -3268,14 +2903,14 @@
         "styled-jsx"
       ],
       "optionalDependencies": [
-        "@next/swc-darwin-arm64",
-        "@next/swc-darwin-x64",
-        "@next/swc-linux-arm64-gnu",
-        "@next/swc-linux-arm64-musl",
-        "@next/swc-linux-x64-gnu",
-        "@next/swc-linux-x64-musl",
-        "@next/swc-win32-arm64-msvc",
-        "@next/swc-win32-x64-msvc",
+        "@next/swc-darwin-arm64@15.4.2-canary.35",
+        "@next/swc-darwin-x64@15.4.2-canary.35",
+        "@next/swc-linux-arm64-gnu@15.4.2-canary.35",
+        "@next/swc-linux-arm64-musl@15.4.2-canary.35",
+        "@next/swc-linux-x64-gnu@15.4.2-canary.35",
+        "@next/swc-linux-x64-musl@15.4.2-canary.35",
+        "@next/swc-win32-arm64-msvc@15.4.2-canary.35",
+        "@next/swc-win32-x64-msvc@15.4.2-canary.35",
         "sharp"
       ],
       "bin": true,
@@ -3451,11 +3086,6 @@
       "integrity": "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==",
       "tarball": "https://registry.npmmirror.com/prelude-ls/-/prelude-ls-1.2.1.tgz"
     },
-    "prettier@3.6.2": {
-      "integrity": "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==",
-      "bin": true,
-      "tarball": "https://registry.npmmirror.com/prettier/-/prettier-3.6.2.tgz"
-    },
     "prop-types@15.8.1": {
       "integrity": "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==",
       "dependencies": [
@@ -3599,22 +3229,6 @@
     "reusify@1.1.0": {
       "integrity": "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==",
       "tarball": "https://registry.npmmirror.com/reusify/-/reusify-1.1.0.tgz"
-    },
-    "rsbuild-plugin-dts@0.11.2_@rsbuild+core@1.4.15__@swc+helpers@0.5.17_typescript@5.9.2": {
-      "integrity": "sha512-D3sSqcrxRnuIbGaXZgmV8K/WLaJ6lBe0mD3SemWAexBXYezu4rj1ndqQeRwkDBji+XU6wLUA+w43GyWtY4E79g==",
-      "dependencies": [
-        "@ast-grep/napi",
-        "@rsbuild/core",
-        "magic-string",
-        "picocolors",
-        "tinyglobby",
-        "tsconfig-paths@4.2.0",
-        "typescript"
-      ],
-      "optionalPeers": [
-        "typescript"
-      ],
-      "tarball": "https://registry.npmmirror.com/rsbuild-plugin-dts/-/rsbuild-plugin-dts-0.11.2.tgz"
     },
     "run-parallel@1.2.0": {
       "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
@@ -3788,10 +3402,6 @@
       ],
       "tarball": "https://registry.npmmirror.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz"
     },
-    "sisteransi@1.0.5": {
-      "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==",
-      "tarball": "https://registry.npmmirror.com/sisteransi/-/sisteransi-1.0.5.tgz"
-    },
     "source-map-js@1.2.1": {
       "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
       "tarball": "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz"
@@ -3807,24 +3417,6 @@
         "internal-slot"
       ],
       "tarball": "https://registry.npmmirror.com/stop-iteration-iterator/-/stop-iteration-iterator-1.1.0.tgz"
-    },
-    "string-width@4.2.3": {
-      "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
-      "dependencies": [
-        "emoji-regex@8.0.0",
-        "is-fullwidth-code-point",
-        "strip-ansi@6.0.1"
-      ],
-      "tarball": "https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz"
-    },
-    "string-width@7.2.0": {
-      "integrity": "sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==",
-      "dependencies": [
-        "emoji-regex@10.4.0",
-        "get-east-asian-width",
-        "strip-ansi@7.1.0"
-      ],
-      "tarball": "https://registry.npmmirror.com/string-width/-/string-width-7.2.0.tgz"
     },
     "string.prototype.includes@2.0.1": {
       "integrity": "sha512-o7+c9bW6zpAdJHTtujeePODAhkuicdAryFsfVKwA+wGw89wJ4GTY484WTucM9hLtDEOpOvI+aHnzqnC5lHp4Rg==",
@@ -3893,20 +3485,6 @@
         "es-object-atoms"
       ],
       "tarball": "https://registry.npmmirror.com/string.prototype.trimstart/-/string.prototype.trimstart-1.0.8.tgz"
-    },
-    "strip-ansi@6.0.1": {
-      "integrity": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
-      "dependencies": [
-        "ansi-regex@5.0.1"
-      ],
-      "tarball": "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz"
-    },
-    "strip-ansi@7.1.0": {
-      "integrity": "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==",
-      "dependencies": [
-        "ansi-regex@6.1.0"
-      ],
-      "tarball": "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-7.1.0.tgz"
     },
     "strip-bom@3.0.0": {
       "integrity": "sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==",
@@ -3985,20 +3563,11 @@
       "integrity": "sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==",
       "dependencies": [
         "@types/json5",
-        "json5@1.0.2",
+        "json5",
         "minimist",
         "strip-bom"
       ],
       "tarball": "https://registry.npmmirror.com/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz"
-    },
-    "tsconfig-paths@4.2.0": {
-      "integrity": "sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==",
-      "dependencies": [
-        "json5@2.2.3",
-        "minimist",
-        "strip-bom"
-      ],
-      "tarball": "https://registry.npmmirror.com/tsconfig-paths/-/tsconfig-paths-4.2.0.tgz"
     },
     "tslib@2.8.1": {
       "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
@@ -4014,10 +3583,6 @@
         "prelude-ls"
       ],
       "tarball": "https://registry.npmmirror.com/type-check/-/type-check-0.4.0.tgz"
-    },
-    "type-fest@4.41.0": {
-      "integrity": "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==",
-      "tarball": "https://registry.npmmirror.com/type-fest/-/type-fest-4.41.0.tgz"
     },
     "typed-array-buffer@1.0.3": {
       "integrity": "sha512-nAYYwfY3qnzX30IkA6AQZjVbtK6duGontcQm1WSG1MD94YLqK0515GNApXkoxKOWMusVssAHWLh9SeaoefYFGw==",
@@ -4212,25 +3777,9 @@
       "bin": true,
       "tarball": "https://registry.npmmirror.com/which/-/which-2.0.2.tgz"
     },
-    "widest-line@5.0.0": {
-      "integrity": "sha512-c9bZp7b5YtRj2wOe6dlj32MK+Bx/M/d+9VB2SHM1OtsUHR0aV0tdP6DWh/iMt0kWi1t5g1Iudu6hQRNd1A4PVA==",
-      "dependencies": [
-        "string-width@7.2.0"
-      ],
-      "tarball": "https://registry.npmmirror.com/widest-line/-/widest-line-5.0.0.tgz"
-    },
     "word-wrap@1.2.5": {
       "integrity": "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==",
       "tarball": "https://registry.npmmirror.com/word-wrap/-/word-wrap-1.2.5.tgz"
-    },
-    "wrap-ansi@9.0.0": {
-      "integrity": "sha512-G8ura3S+3Z2G+mkgNRq8dqaFZAuxfsxpBB8OCTGRTCtp+l/v9nbFNmCUP1BZMts3G1142MsZfn6eeUKrr4PD1Q==",
-      "dependencies": [
-        "ansi-styles@6.2.1",
-        "string-width@7.2.0",
-        "strip-ansi@7.1.0"
-      ],
-      "tarball": "https://registry.npmmirror.com/wrap-ansi/-/wrap-ansi-9.0.0.tgz"
     },
     "yallist@5.0.0": {
       "integrity": "sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==",
@@ -4242,64 +3791,34 @@
     }
   },
   "workspace": {
-    "members": {
-      "apps/cli": {
-        "packageJson": {
-          "dependencies": [
-            "npm:@biomejs/biome@2.1.3",
-            "npm:@clack/prompts@0.11",
-            "npm:@rslib/core@~0.11.2",
-            "npm:@types/node@^22.17.0",
-            "npm:boxen@^8.0.1",
-            "npm:chalk@^5.5.0",
-            "npm:prettier@^3.6.2",
-            "npm:typescript@^5.9.2"
-          ]
-        }
-      },
-      "apps/web": {
-        "packageJson": {
-          "dependencies": [
-            "npm:@eslint/eslintrc@3",
-            "npm:@radix-ui/react-avatar@^1.1.10",
-            "npm:@radix-ui/react-dropdown-menu@^2.1.15",
-            "npm:@radix-ui/react-separator@^1.1.7",
-            "npm:@radix-ui/react-slot@^1.2.3",
-            "npm:@tailwindcss/postcss@4",
-            "npm:@types/node@20",
-            "npm:@types/react-dom@19",
-            "npm:@types/react@19",
-            "npm:axios@^1.11.0",
-            "npm:class-variance-authority@~0.7.1",
-            "npm:clsx@^2.1.1",
-            "npm:dayjs@^1.11.13",
-            "npm:eslint-config-next@15.4.5",
-            "npm:eslint@9",
-            "npm:lucide-react@0.536",
-            "npm:next-auth@5.0.0-beta.29",
-            "npm:next@15.4.2-canary.35",
-            "npm:react-dom@19.1.0",
-            "npm:react-icons@^5.5.0",
-            "npm:react@19.1.0",
-            "npm:tailwind-merge@^3.3.1",
-            "npm:tailwindcss@4",
-            "npm:tw-animate-css@^1.3.6",
-            "npm:typescript@5"
-          ]
-        }
-      },
-      "packages/api": {
-        "packageJson": {
-          "dependencies": [
-            "npm:@biomejs/biome@2.1.3",
-            "npm:@rslib/core@~0.11.2",
-            "npm:@types/node@^22.17.0",
-            "npm:axios@^1.11.0",
-            "npm:prettier@^3.6.2",
-            "npm:typescript@^5.9.2"
-          ]
-        }
-      }
+    "packageJson": {
+      "dependencies": [
+        "npm:@eslint/eslintrc@3",
+        "npm:@radix-ui/react-avatar@^1.1.10",
+        "npm:@radix-ui/react-dropdown-menu@^2.1.15",
+        "npm:@radix-ui/react-separator@^1.1.7",
+        "npm:@radix-ui/react-slot@^1.2.3",
+        "npm:@tailwindcss/postcss@4",
+        "npm:@types/node@20",
+        "npm:@types/react-dom@19",
+        "npm:@types/react@19",
+        "npm:axios@^1.11.0",
+        "npm:class-variance-authority@~0.7.1",
+        "npm:clsx@^2.1.1",
+        "npm:dayjs@^1.11.13",
+        "npm:eslint-config-next@15.4.5",
+        "npm:eslint@9",
+        "npm:lucide-react@0.536",
+        "npm:next-auth@5.0.0-beta.29",
+        "npm:next@15.4.2-canary.35",
+        "npm:react-dom@19.1.0",
+        "npm:react-icons@^5.5.0",
+        "npm:react@19.1.0",
+        "npm:tailwind-merge@^3.3.1",
+        "npm:tailwindcss@4",
+        "npm:tw-animate-css@^1.3.6",
+        "npm:typescript@5"
+      ]
     }
   }
 }

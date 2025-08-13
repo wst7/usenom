@@ -1,4 +1,4 @@
-import type { GithubUsers } from "@/types/type";
+import type { GithubUsers } from "@usenom/api";
 import Empty from "../empty";
 import Image from "next/image";
 

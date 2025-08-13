@@ -12,6 +12,4 @@ export function getApiUrl(path: string) {
   return new URL(path, baseUrl).toString();
 }
 
-export function isEqual(a: string, b: string) {
-  return a.toLowerCase() === b.toLowerCase();
-}
+

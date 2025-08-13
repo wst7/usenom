@@ -1,4 +1,4 @@
-import type { PyPiRecord } from "@/types/type";
+import type { PyPiRecord } from "@usenom/api";
 import Empty from "@/components/empty";
 import BackLink, { LinkType } from "../back-link";
 

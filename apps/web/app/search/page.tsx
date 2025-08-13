@@ -4,7 +4,7 @@ import CratesIo from "@/components/result/crates";
 import PyPI from "@/components/result/pypi";
 import SearchForm from "@/components/search-form";
 import { getApiUrl } from "@/lib/utils";
-import { SearchResult } from "@/types/type";
+import { SearchResult } from "@usenom/api";
 type SearchParams = {
   q: string;
 };

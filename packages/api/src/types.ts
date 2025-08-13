@@ -14,6 +14,7 @@ export type NpmPackageRecord = {
 export type GithubRecord = {
   username: string
   avatarUrl: string
+  html_url: string
 }
 
 export type CrateRecord = {
@@ -30,9 +31,6 @@ export type PyPiRecord = {
   description: string
   author: string
   version: string
-  // lastModified: string
-  // downloads: number
-  // license: string
 }
 
 export type NpmPackages = List<NpmPackageRecord>
