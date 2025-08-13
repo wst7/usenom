@@ -13,7 +13,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
+    "build": "./node_modules/.bin/rslib build",
     "check": "biome check --write",
     "dev": "rslib build --watch",
     "format": "prettier --write ."
